@@ -45,6 +45,6 @@ export const callsToAction = [
 
 export const itensMenu = [
   { name: "Sobre", href: "/about" },
+  { name: "Projetos", href: "/projects" },
   { name: "Contato", href: "/contact" },
-  // { name: "Resources", href: "#" },
 ];

@@ -1,8 +1,8 @@
 import {
-  GithubIcon,
-  LinkedinIcon,
   WhatsappIcon,
   EmailIcon,
+  LinkedinIcon,
+  GithubIcon,
 } from "../components/icon";
 import "./style.css";
 
