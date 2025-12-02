@@ -3,7 +3,7 @@ import {
   EmailIcon,
   LinkedinIcon,
   GithubIcon,
-} from "../components/icon";
+} from "../../components/icon";
 import "./style.css";
 
 export default function ContactPage() {

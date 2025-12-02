@@ -1,4 +1,4 @@
-import Carrousel from "../components/Carrousel";
+import Carrousel from "../../components/Carrousel";
 
 export default function ProjectsPage() {
   return (
