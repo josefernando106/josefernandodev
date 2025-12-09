@@ -1,27 +1,41 @@
-"use client"
+"use client";
 
-import { useState } from "react"
+import { useState } from "react";
 
 export function Header() {
-  const [isOpen, setIsOpen] = useState(false)
+  const [isOpen, setIsOpen] = useState(false);
 
   const navLinks = [
     { name: "Sobre", href: "#about" },
     { name: "Projetos", href: "#projects" },
     { name: "Contato", href: "#contact" },
-  ]
+  ];
 
   return (
     <header className="sticky top-0 z-50 bg-background/80 backdrop-blur-sm border-b border-border">
       <nav className="max-w-4xl mx-auto px-4 py-4 flex items-center justify-between">
-        <a href="#" className="text-2xl font-bold text-primary">
+        <a href="#" className="text-3xl font-bold text-primary">
           JF
         </a>
 
         {/* Mobile menu button */}
-        <button className="md:hidden p-2" onClick={() => setIsOpen(!isOpen)} aria-label="Toggle menu">
-          <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
-            <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 6h16M4 12h16M4 18h16" />
+        <button
+          className="md:hidden p-2"
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
+        >
+          <svg
+            className="w-6 h-6"
+            fill="none"
+            stroke="currentColor"
+            viewBox="0 0 24 24"
+          >
+            <path
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth={2}
+              d="M4 6h16M4 12h16M4 18h16"
+            />
           </svg>
         </button>
 
@@ -57,5 +71,5 @@ export function Header() {
         )}
       </nav>
     </header>
-  )
+  );
 }

@@ -9,13 +9,14 @@ export function HeroSection() {
             Olá, sou <span className="text-primary">José Fernando</span>
           </h1>
           <p className="text-xl md:text-2xl text-muted-foreground font-medium">
-            Desenvolvedor Full Stack apaixonado por criar experiências web inovadoras
+            Desenvolvedor Front End apaixonado por criar experiências web
+            inovadoras
           </p>
         </div>
-
         <p className="text-base md:text-lg text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-          Transformo ideias em código limpo e funcional. Especializado em React, Next.js e tecnologias modernas para
-          web.
+          Transformo ideias em código limpo e funcional. <br />
+          Especializado em React, Next.js, Angular.js e tecnologias modernas
+          para web.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center pt-8">
@@ -34,5 +35,5 @@ export function HeroSection() {
         </div>
       </div>
     </section>
-  )
+  );
 }
